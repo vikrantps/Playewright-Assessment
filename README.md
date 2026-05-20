@@ -22,6 +22,7 @@ This project contains automated end-to-end tests for the Sauce Demo e-commerce w
 
 ## 🧪 Test Categories
 
+
 ### 1. **Basic Test Implementation** (`assessment-Task/`)
 - Direct Playwright API usage without Page Object Model
 - Covers fundamental e-commerce workflows

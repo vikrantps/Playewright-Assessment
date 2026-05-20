@@ -13,7 +13,6 @@ test('Workers Program - validate Home Page title and URL', async ({ page }) => {
 
     await expect(page).toHaveURL('https://www.saucedemo.com/');
 
-
 });
 
 test('Workers Program - validate dashboard title and URL', async ({ page }) => {

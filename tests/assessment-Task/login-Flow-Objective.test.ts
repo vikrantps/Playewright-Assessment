@@ -12,6 +12,7 @@ test('Automating a Login Flow', async ({ page }) => {
     const productsTitle = page.locator('.title');
     await expect(productsTitle).toBeVisible();
     await expect(productsTitle).toHaveText('Products');
+    
 
     await page.screenshot({ path: 'successful-login.png' });
 });

@@ -15,6 +15,7 @@ test('Visual test for inventory page', async ({ page }) => {
   await expect(page).toHaveScreenshot('inventory-page.png', {
     fullPage: true,
     maxDiffPixels: 100
+    
   });
 });
 

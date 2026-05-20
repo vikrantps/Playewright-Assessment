@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Add and Remove Items from Cart', async ({ page }) => {
     await page.goto('https://www.saucedemo.com/');
+    
 
     await page.fill('[data-test="username"]', 'standard_user');
     await page.fill('[data-test="password"]', 'secret_sauce');

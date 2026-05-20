@@ -15,6 +15,7 @@ export class LoginPage {
   private readonly productSortContainer: Locator;
   private readonly inventoryItems: Locator;
   private readonly footer: Locator;
+  
 
   constructor(page: Page) {
     this.page = page;
