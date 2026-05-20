@@ -1,0 +1,198 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: visual-Testing-Scenarios-Assessment\visual-Testing-Scenario.test.ts >> Visual test for inventory page
+- Location: tests\visual-Testing-Scenarios-Assessment\visual-Testing-Scenario.test.ts:3:5
+
+# Error details
+
+```
+Error: expect(page).toHaveScreenshot(expected) failed
+
+  Expected an image 1280px by 1109px, received 1280px by 1110px. 25152 pixels (ratio 0.02 of all image pixels) are different.
+
+  Snapshot: inventory-page.png
+
+Call log:
+  - Expect "toHaveScreenshot(inventory-page.png)" with timeout 5000ms
+    - verifying given screenshot expectation
+  - taking page screenshot
+    - disabled all CSS animations
+  - waiting for fonts to load...
+  - fonts loaded
+  - Expected an image 1280px by 1109px, received 1280px by 1110px. 25152 pixels (ratio 0.02 of all image pixels) are different.
+  - waiting 100ms before taking screenshot
+  - taking page screenshot
+    - disabled all CSS animations
+  - waiting for fonts to load...
+  - fonts loaded
+  - captured a stable screenshot
+  - Expected an image 1280px by 1109px, received 1280px by 1110px. 25152 pixels (ratio 0.02 of all image pixels) are different.
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Open Menu" [ref=e8] [cursor=pointer]
+          - img "Open Menu" [ref=e9]
+        - generic [ref=e11]: Swag Labs
+      - generic [ref=e14]:
+        - generic [ref=e15]: Products
+        - generic [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]: Name (A to Z)
+          - combobox [ref=e19]:
+            - option "Name (A to Z)" [selected]
+            - option "Name (Z to A)"
+            - option "Price (low to high)"
+            - option "Price (high to low)"
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - link "Sauce Labs Backpack" [ref=e26] [cursor=pointer]:
+          - /url: "#"
+          - img "Sauce Labs Backpack" [ref=e27]
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - link "Sauce Labs Backpack" [ref=e30] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e31]: Sauce Labs Backpack
+            - generic [ref=e32]: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+          - generic [ref=e33]:
+            - generic [ref=e34]: $29.99
+            - button "Add to cart" [ref=e35] [cursor=pointer]
+      - generic [ref=e36]:
+        - link "Sauce Labs Bike Light" [ref=e38] [cursor=pointer]:
+          - /url: "#"
+          - img "Sauce Labs Bike Light" [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - link "Sauce Labs Bike Light" [ref=e42] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e43]: Sauce Labs Bike Light
+            - generic [ref=e44]: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+          - generic [ref=e45]:
+            - generic [ref=e46]: $9.99
+            - button "Add to cart" [ref=e47] [cursor=pointer]
+      - generic [ref=e48]:
+        - link "Sauce Labs Bolt T-Shirt" [ref=e50] [cursor=pointer]:
+          - /url: "#"
+          - img "Sauce Labs Bolt T-Shirt" [ref=e51]
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - link "Sauce Labs Bolt T-Shirt" [ref=e54] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e55]: Sauce Labs Bolt T-Shirt
+            - generic [ref=e56]: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+          - generic [ref=e57]:
+            - generic [ref=e58]: $15.99
+            - button "Add to cart" [ref=e59] [cursor=pointer]
+      - generic [ref=e60]:
+        - link "Sauce Labs Fleece Jacket" [ref=e62] [cursor=pointer]:
+          - /url: "#"
+          - img "Sauce Labs Fleece Jacket" [ref=e63]
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - link "Sauce Labs Fleece Jacket" [ref=e66] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e67]: Sauce Labs Fleece Jacket
+            - generic [ref=e68]: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+          - generic [ref=e69]:
+            - generic [ref=e70]: $49.99
+            - button "Add to cart" [ref=e71] [cursor=pointer]
+      - generic [ref=e72]:
+        - link "Sauce Labs Onesie" [ref=e74] [cursor=pointer]:
+          - /url: "#"
+          - img "Sauce Labs Onesie" [ref=e75]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - link "Sauce Labs Onesie" [ref=e78] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e79]: Sauce Labs Onesie
+            - generic [ref=e80]: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+          - generic [ref=e81]:
+            - generic [ref=e82]: $7.99
+            - button "Add to cart" [ref=e83] [cursor=pointer]
+      - generic [ref=e84]:
+        - link "Test.allTheThings() T-Shirt (Red)" [ref=e86] [cursor=pointer]:
+          - /url: "#"
+          - img "Test.allTheThings() T-Shirt (Red)" [ref=e87]
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - link "Test.allTheThings() T-Shirt (Red)" [ref=e90] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e91]: Test.allTheThings() T-Shirt (Red)
+            - generic [ref=e92]: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+          - generic [ref=e93]:
+            - generic [ref=e94]: $15.99
+            - button "Add to cart" [ref=e95] [cursor=pointer]
+  - contentinfo [ref=e96]:
+    - list [ref=e97]:
+      - listitem [ref=e98]:
+        - link "Twitter" [ref=e99] [cursor=pointer]:
+          - /url: https://twitter.com/saucelabs
+      - listitem [ref=e100]:
+        - link "Facebook" [ref=e101] [cursor=pointer]:
+          - /url: https://www.facebook.com/saucelabs
+      - listitem [ref=e102]:
+        - link "LinkedIn" [ref=e103] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/sauce-labs/
+    - generic [ref=e104]: © 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@playwright/test';
+  2  | 
+  3  | test('Visual test for inventory page', async ({ page }) => {
+  4  |   // Login to reach inventory page
+  5  |   await page.goto('https://www.saucedemo.com/');
+  6  |   await page.fill('[data-test="username"]', 'standard_user');
+  7  |   await page.fill('[data-test="password"]', 'secret_sauce');
+  8  |   await page.click('[data-test="login-button"]');
+  9  |   
+  10 |   // Wait for inventory page to load
+  11 |   await page.waitForURL('https://www.saucedemo.com/inventory.html');
+  12 |   await page.waitForLoadState('networkidle');
+  13 |   
+  14 |   // Take screenshot and compare with baseline
+> 15 |   await expect(page).toHaveScreenshot('inventory-page.png', {
+     |                      ^ Error: expect(page).toHaveScreenshot(expected) failed
+  16 |     fullPage: true,
+  17 |     maxDiffPixels: 100
+  18 |   });
+  19 | });
+  20 | 
+  21 | 
+  22 | test('Visual test with different viewport sizes', async ({ page }) => {
+  23 | 
+  24 |   await page.goto('https://www.saucedemo.com/');
+  25 |   await page.fill('[data-test="username"]', 'standard_user');
+  26 |   await page.fill('[data-test="password"]', 'secret_sauce');
+  27 |   await page.click('[data-test="login-button"]');
+  28 |   
+  29 |   await page.waitForURL('https://www.saucedemo.com/inventory.html');
+  30 |   
+  31 |   // Desktop view
+  32 |   await page.setViewportSize({ width: 1920, height: 1080 });
+  33 |   await expect(page).toHaveScreenshot('inventory-desktop.png');
+  34 |   
+  35 |   // Tablet view
+  36 |   await page.setViewportSize({ width: 768, height: 1024 });
+  37 |   await expect(page).toHaveScreenshot('inventory-tablet.png');
+  38 |   
+  39 |   // Mobile view
+  40 |   await page.setViewportSize({ width: 375, height: 667 });
+  41 |   await expect(page).toHaveScreenshot('inventory-mobile.png');
+  42 | });
+```
