@@ -83,6 +83,7 @@ test.describe('Login Page Tests', () => {
 
         expect(errorMessage).toContain('Username is required');
     });
+    
 
     test.afterAll(() => {
         console.log('===================================\n');
