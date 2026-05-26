@@ -47,7 +47,7 @@ export default defineConfig({
     },
 
     launchOptions: {
-      args: ['--start-maximized']
+      args: process.env.CI ? [] : ['--start-maximized']
     }
   },
  
