@@ -6,7 +6,7 @@ name: Playwright Tests
 on:
   push:
     # Run the workflow whenever code is pushed to 'main' or 'master' branch
-    branches: [ main, master ]
+    branches: [ main, master ,develop ]
   # pull_request:
   #   # Also run when a pull request targets 'main' or 'master'
   #   branches: [ main, master ]
