@@ -4,9 +4,9 @@ name: Playwright Tests
 # ── TRIGGERS ────────────────────────────────────────────────────────────
 # "on" defines WHEN this workflow runs.
 on:
-  push:
-    # Run the workflow whenever code is pushed to 'main' or 'master' branch
-    branches: [ main, master ]
+  # push:
+  #   # Run the workflow whenever code is pushed to 'main' or 'master' branch
+  #   branches: [ main, master ]
   # pull_request:
   #   # Also run when a pull request targets 'main' or 'master'
   #   branches: [ main, master ]

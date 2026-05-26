@@ -1,0 +1,8 @@
+{
+  "baseURL": "https://www.saucedemo.com/",
+  "credentials": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "timeout": 30000
+}
